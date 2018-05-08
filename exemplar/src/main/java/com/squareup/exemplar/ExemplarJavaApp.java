@@ -17,7 +17,6 @@ public class ExemplarJavaApp {
     new MiskApplication(
         new MiskModule(),
         new WebModule(),
-        new HibernateModule(),
         new ExemplarJavaModule(),
         new ConfigModule<>(ExemplarJavaConfig.class, "exemplar", config),
         new EnvironmentModule(environment)

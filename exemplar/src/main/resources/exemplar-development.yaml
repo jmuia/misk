@@ -1,0 +1,21 @@
+data_sources:
+  exemplar:
+    type: MYSQL
+    username: root
+    password: ''
+    database: misk_exemplar_development
+    connection_properties:
+      useUnicode: true
+      zeroDateTimeBehavior: convertToNull
+      connectionTimeout: 2000
+
+  exemplar-readonly:
+    type: MYSQL
+    username: root
+    password: ''
+    database: misk_exemplar_development
+    read_only: true
+    connection_properties:
+      useUnicode: true
+      zeroDateTimeBehavior: convertToNull
+      connectionTimeout: 2000

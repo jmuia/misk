@@ -19,7 +19,6 @@ fun main(args: Array<String>) {
       MiskModule(),
       WebModule(),
       ResourceLoaderModule(),
-      HibernateModule(),
       RealEventRouterModule(environment),
       ChatModule(),
       ConfigModule.create("chat", config),

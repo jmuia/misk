@@ -23,6 +23,7 @@ dependencies {
   compile dep.guava
   compile dep.guice
   compile dep.guiceMultibindings
+  compile dep.hibernateCore
   compile dep.okHttp
   compile dep.kotlinReflection
   compile dep.moshi
@@ -42,12 +43,14 @@ dependencies {
   compile dep.metricsGraphite
   compile dep.metricsSignalFx
   compile dep.metricsStackDriver
+  compile dep.mysql
   compile dep.gcpDatastore
   compile dep.gcpKms
   compile dep.gcpCloudStorage
   compile dep.jCommander
   compile dep.openTracing
   compile dep.openTracingOkHttp
+  compile dep.persistenceApi
   compile dep.tracingJaeger
   compile dep.tracingZipkin
   compile dep.zipkinReporter
